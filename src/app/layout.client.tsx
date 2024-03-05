@@ -1,5 +1,5 @@
 import "./globals.scss";
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useState } from "react";
 
 export const metadata = {
   title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
@@ -79,6 +79,28 @@ const addJsonLd = () => {
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
+  const [theme, setTheme] = useState(() => {
+    if (typeof window !== "undefined") {
+      const savedTheme = localStorage.getItem("theme");
+      return savedTheme
+        ? savedTheme
+        : window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+    }
+    return "light";
+  });
+
+  useEffect(() => {
+    const metaThemeColor = document.querySelector("meta[name=theme-color]");
+    if (metaThemeColor) {
+      if (theme === "dark") {
+        metaThemeColor.setAttribute("content", "rgba(19, 20, 21, 0.8)");
+      } else {
+        metaThemeColor.setAttribute("content", "rgba(251, 251, 253, 0.8)");
+      }
+    }
+  }, [theme]);
   return (
     <html lang="de">
       <head>
@@ -94,7 +116,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         sizes="180x180"
         href="/apple-touch-icon.png"
       />
-      <link rel="manifest" href="/manifest.webmanifest" />
+      <link rel="manifest" href="/site.webmanifest" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0066cc" />
       <meta name="msapplication-TileColor" content="#2d89ef" />
       <link rel="canonical" href={metadata.openGraph.url} />
