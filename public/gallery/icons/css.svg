@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>CSS Logo</title>
+  <desc>
+    Das Symbol für das CSS-Logo, repräsentiert durch ein einfaches „#“-Zeichen, steht für die Verwendung von ID-Selektoren in CSS zur einzigartigen Identifizierung von Elementen auf einer Webseite. Es symbolisiert die Kernfunktion von CSS in der Webentwicklung: die Gestaltung und Strukturierung von Webseiteninhalten. Das „#“-Symbol reflektiert die Präzision und Spezifität, mit der Entwickler das Erscheinungsbild und Verhalten von Webseitenelementen steuern können.
+  </desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="">
+        <dc:creator>Tim Niedermeier - https://niedermeier.dev</dc:creator>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+  <rect width="32" height="32" fill="#FF4785"/>
+  <path d="M10.3016 23.2992L11.1016 19.2992H8.60156V17.1992H11.6016L12.1016 14.6992H9.50156V12.5992H12.6016L13.4016 8.69922H16.2016L15.4016 12.5992H18.2016L19.0016 8.69922H21.8016L21.0016 12.5992H23.5016V14.6992H20.6016L20.0016 17.1992H22.6016V19.2992H19.6016L18.8016 23.2992H16.0016L16.8016 19.2992H14.0016L13.2016 23.2992H10.3016ZM17.2016 17.1992L17.7016 14.6992H14.9016L14.4016 17.1992H17.2016Z" fill="white"/>
+</svg>

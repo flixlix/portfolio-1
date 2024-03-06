@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Cloudflare Logo</title>
+  <desc>
+    Das Symbol von Cloudflare zeigt eine stilisierte Wolke, die Dynamik, Geschwindigkeit und Schutz symbolisiert. Es repräsentiert die Kernwerte von Cloudflare: Sicherheit, Leistung und Zuverlässigkeit in der digitalen Welt. Die Gestaltung vermittelt ein Gefühl von Innovation und zukunftsorientierter Technologie.
+  </desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="">
+        <dc:creator>Tim Niedermeier - https://niedermeier.dev</dc:creator>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+  <rect width="32" height="32" fill="#F38020"/>
+  <path d="M20.0005 20.839C20.588 19.4435 19.7868 18.7994 18.9856 18.7994L11.0805 18.6921C10.8669 18.6921 10.8669 18.37 11.1339 18.3164L19.1459 18.209C20.0539 18.1553 21.1222 17.4039 21.4426 16.4378C21.4426 16.4378 21.9768 15.3107 21.9234 15.1497C21.6921 14.0286 21.0996 13.0154 20.2375 12.2669C19.3754 11.5183 18.2917 11.0762 17.1544 11.009C16.017 10.9418 14.8892 11.2531 13.9457 11.8949C13.0022 12.5368 12.2956 13.4732 11.9351 14.5593C9.90543 13.2175 7.76891 15.0423 8.24962 17.0282C5.6858 17.1892 4.77778 19.4972 5.04484 20.8927C5.04484 20.9463 5.09825 21 5.20508 21H19.8403C19.8937 21 20.0005 20.9463 20.0005 20.839Z" fill="white"/>
+  <path d="M22.6711 15.3644C22.4575 15.3644 22.3507 15.3107 22.2973 15.418L22.0302 16.5452C21.7631 17.4039 22.1904 18.1553 23.0984 18.209L24.8077 18.3164C25.0213 18.3164 25.0213 18.6384 24.7543 18.6921L22.9916 18.7457C21.0688 18.9604 20.5346 20.839 20.5346 20.839C20.5346 20.9463 20.5346 21 20.6414 21H26.6771L26.8374 20.8927C27.019 20.246 27.049 19.5658 26.9249 18.9056C26.8009 18.2453 26.5263 17.6229 26.1226 17.0872C25.7189 16.5516 25.1972 16.1172 24.5983 15.8183C23.9995 15.5194 23.3398 15.364 22.6711 15.3644Z" fill="white"/>
+</svg>

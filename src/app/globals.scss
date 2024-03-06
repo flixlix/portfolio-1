@@ -101,7 +101,6 @@ header ol {
 }
 
 header picture,
-header img,
 header svg {
   order: 0;
   height: 1.5rem;
@@ -195,19 +194,32 @@ h2 {
   }
 }
 
-@media screen and (min-width: 48rem) {
-  .grid2o4right {
-    align-items: stretch;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .grid2o4left {
-    align-items: stretch;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+p {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
 
-  .commonGrid {
+.iconGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.iconGrid picture,
+.iconGrid img,
+.iconGrid svg {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  background-color: var(--section-color);
+}
+
+@media screen and (min-width: 48rem) {
+  .commonGrid,
+  .iconGrid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     gap: 1rem;
     justify-content: center;
     border-radius: 0;
@@ -216,75 +228,54 @@ h2 {
     box-shadow: none;
   }
 
-  .grid1of4r picture,
-  .grid1of4r img,
-  .grid1of4l picture,
-  .grid1of4l img {
-    height: 100%;
-    width: 252px;
-    box-shadow: #0000001a 0 0 0.5rem;
-    object-fit: cover;
-    object-position: center;
-    border-radius: var(--border-radius);
-  }
-
-  .grid2o4right picture,
-  .grid2o4right img,
-  .grid2o4left picture,
-  .grid2o4left img {
-    height: 100%;
-    width: 504px;
-    box-shadow: #0000001a 0 0 0.5rem;
-    object-fit: cover;
-    object-position: center;
-    border-radius: var(--border-radius);
-  }
-
-  .grid1of4r .imageContainer,
-  .grid1of4r .textContainer,
-  .grid2o4right .imageContainer,
-  .grid2o4left .imageContainer,
-  .grid2o4right .textContainer,
-  .grid2o4left .textContainer {
-    border-radius: var(--border-radius);
-  }
-
-  .grid1of4l .imageContainer .grid2o4left .imageContainer {
-    border-radius: var(--border-radius);
-    order: 0;
-  }
-
-  .grid1of4r .imageContainer,
-  .grid2o4right .imageContainer {
-    border-radius: var(--border-radius);
-    order: 1;
+  .grid1of4l .imageContainer,
+  .grid1of4r .imageContainer {
+    grid-column: span 4;
   }
 
   .grid1of4l .textContainer,
-  .grid2o4left .textContainer {
-    border-radius: var(--border-radius);
-    order: 1;
+  .grid1of4r .textContainer {
+    grid-column: span 8;
   }
 
-  .grid1of4r .textContainer,
-  .grid2o4right .textContainer {
+  .grid2o4r .imageContainer,
+  .grid2o4l .imageContainer,
+  .grid2o4r .textContainer,
+  .grid2o4l .textContainer {
+    grid-column: span 6;
+  }
+
+  .imageContainer,
+  .textContainer {
     border-radius: var(--border-radius);
+  }
+
+  .commonGrid picture,
+  .commonGrid img {
+    height: 100%;
+    box-shadow: #0000001a 0 0 0.5rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .grid1of4l .imageContainer,
+  .grid2o4l .imageContainer,
+  .grid1of4r .textContainer,
+  .grid2o4r .textContainer {
     order: 0;
   }
 
-  .grid1of4l {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-  }
-
-  .grid1of4r {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+  .grid1of4r .imageContainer,
+  .grid2o4r .imageContainer,
+  .grid1of4l .textContainer,
+  .grid2o4l .textContainer {
+    order: 1;
   }
 }
 
 @media screen and (min-width: 72rem) {
-  .commonGrid {
+  .commonGrid,
+  .iconGrid {
     max-width: 64rem;
   }
 }

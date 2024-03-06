@@ -17,33 +17,57 @@ export const metadata = {
     "App Design",
     "Physical Computing",
   ],
-  robots: "index, follow",
+  category: "technology, web development, app design, physical computing",
+  metadataBase: new URL("https://niedermeier.dev"),
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "https://niedermeier.dev/manifest.webmanifest",
+  verification: {
+    google: "google",
+    yandex: "yandex",
+    yahoo: "yahoo",
+    other: {
+      me: ["my-email", "my-link"],
+    },
+  },
   openGraph: {
     title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
     description:
       "Portfolio von Tim Niedermeier, Student mit Fokus auf Internet der Dinge (IoT). Erfahrung in Webdesign, App-Design und Physical Computing.",
-    type: "website",
-    url: "https://niedermeier.dev",
-    locale: "de_DE",
+    url: "https://niedermeier.dev/",
+    siteName: "Tim Niedermeier, Portfolio",
     images: [
       {
         url: "https://niedermeier.dev/gallery/person.jpg",
+        width: 800,
+        height: 600,
+        alt: "Tim Niedermeier, Internet of Things, Web Development, App Design",
+      },
+      {
+        url: "https://niedermeier.dev/gallery/person.jpg",
+        width: 1800,
+        height: 1600,
         alt: "Tim Niedermeier, Internet of Things, Web Development, App Design",
       },
     ],
+    locale: "de_DE",
+    type: "website",
   },
+
   twitter: {
     card: "summary",
-    site: "https://niedermeier.dev",
     title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
+    site: "https://niedermeier.dev",
     description:
       "Portfolio von Tim Niedermeier, Student mit Fokus auf Internet der Dinge (IoT). Erfahrung in Webdesign, App-Design und Physical Computing.",
-    images: [
-      {
-        url: "https://niedermeier.dev/gallery/person.jpg",
-        alt: "Tim Niedermeier, Internet of Things, Web Development, App Design",
-      },
-    ],
+
+    images: {
+      url: "https://niedermeier.dev/gallery/person.jpg",
+      alt: "Tim Niedermeier, Internet of Things, Web Development, App Design",
+    },
   },
   themeColor: "rgba(251, 251, 253, 0.8)",
 };
@@ -87,18 +111,16 @@ export default function Layout({ children }: { children: ReactNode }) {
           dangerouslySetInnerHTML={addJsonLd()}
           key="item-jsonld"
         />
-      </head>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
 
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-touch-icon.png"
-      />
-      <link rel="manifest" href="/manifest.webmanifest" />
-      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0066cc" />
-      <meta name="msapplication-TileColor" content="#2d89ef" />
-      <link rel="canonical" href={metadata.openGraph.url} />
-      <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0066cc" />
+        <meta name="msapplication-TileColor" content="#2d89ef" />
+        <meta name="mobile-web-app-capable" content="yes" />
+      </head>
       <body>{children}</body>
     </html>
   );

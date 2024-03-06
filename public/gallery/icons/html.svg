@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>HTML Logo</title>
+  <desc>
+  Ein minimalistisches, jedoch aussagekräftiges HTML-Logo, dargestellt durch charakteristische Symbole, die an die Tags in HTML erinnern. Diese repräsentieren die Grundlage des HTML-Markups und seine allgegenwärtige Rolle in der Erstellung von Webseiten. Die Symbolik unterstreicht die zentrale Bedeutung von HTML bei der Strukturierung und dem Design von Webinhalten. Illustriert von Tim Niedermeier, steht es für die Transparenz und Zugänglichkeit in der Welt der Webentwicklung.
+  </desc>
+ <metadata>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="">
+      <dc:creator>Tim Niedermeier - https://niedermeier.dev</dc:creator>
+    </rdf:Description>
+  </rdf:RDF>
+</metadata>
+<rect width="32" height="32" fill="white"/>
+<path d="M8 15.0008L14 9.40078V12.0008L9.5 16.0008L14 20.0008V22.6008L8 17.0008V15.0008ZM24 17.1008L18 22.7008V20.0008L22.6 16.0008L18 12.0008V9.30078L24 14.9008V17.1008Z" fill="#EF7623"/>
+</svg>

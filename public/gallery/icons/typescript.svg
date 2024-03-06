@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>TypeScript Logo</title>
+  <desc>
+    Eine invertierte Darstellung des offiziellen TypeScript-Logos, inspiriert von der Darstellung in VS Code, mit dem "TS" in Weiß auf einem charakteristischen blauen Hintergrund. Diese Anpassung unterstreicht die Stärke und Flexibilität von TypeScript in der Entwicklung von skalierbaren und wartbaren Webanwendungen. Illustriert von Tim Niedermeier, bietet es eine visuell ansprechende Interpretation des traditionellen TypeScript-Logos.
+  </desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="">
+        <dc:creator>Tim Niedermeier - https://niedermeier.dev</dc:creator>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<rect width="32" height="32" fill="#3178C6"/>
+<path d="M15.6008 11.7984H12.2008V21.9984H9.70078V11.7984H6.30078V9.99844H15.5008V11.7984H15.6008ZM23.3008 18.8984C23.3008 18.3984 23.1008 18.0984 22.8008 17.7984C22.5008 17.4984 21.9008 17.2984 21.1008 16.9984C19.7008 16.5984 18.6008 16.0984 17.8008 15.4984C17.1008 14.8984 16.7008 14.1984 16.7008 13.1984C16.7008 12.1984 17.1008 11.3984 18.0008 10.7984C18.8008 10.1984 19.9008 9.89844 21.2008 9.89844C22.5008 9.89844 23.6008 10.2984 24.4008 10.9984C25.2008 11.6984 25.6008 12.5984 25.6008 13.5984H23.3008C23.3008 12.9984 23.1008 12.5984 22.7008 12.1984C22.3008 11.8984 21.8008 11.6984 21.1008 11.6984C20.5008 11.6984 20.0008 11.7984 19.6008 12.0984C19.2008 12.3984 19.1008 12.7984 19.1008 13.1984C19.1008 13.5984 19.3008 13.8984 19.7008 14.1984C20.1008 14.4984 20.7008 14.6984 21.7008 14.9984C23.0008 15.3984 24.0008 15.8984 24.7008 16.4984C25.4008 17.0984 25.7008 17.8984 25.7008 18.8984C25.7008 19.8984 25.3008 20.7984 24.5008 21.2984C23.7008 21.8984 22.6008 22.1984 21.3008 22.1984C20.0008 22.1984 18.8008 21.8984 17.9008 21.1984C17.0008 20.4984 16.4008 19.5984 16.5008 18.2984H18.9008C18.9008 18.9984 19.1008 19.4984 19.6008 19.8984C20.0008 20.1984 20.7008 20.3984 21.4008 20.3984C22.1008 20.3984 22.6008 20.2984 22.9008 19.9984C23.1008 19.6984 23.3008 19.2984 23.3008 18.8984Z" fill="white"/>
+</svg>

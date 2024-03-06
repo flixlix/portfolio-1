@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>ViteJS Logo</title>
+  <desc>
+    Das offizielle ViteJS-Logo, das für seine schnelle und leistungsstarke Entwicklungsumgebung für moderne Webprojekte steht. Das Logo zeigt ein stilisiertes "V", das in einem dynamischen Farbverlauf von Blau zu Lila und einem Akzent in Gelb-Orange dargestellt wird, was die Schnelligkeit und Energie von ViteJS symbolisiert. Illustriert von Tim Niedermeier, repräsentiert es die Essenz von ViteJS in der Webentwicklung.
+  </desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="">
+        <dc:creator>Tim Niedermeier - https://niedermeier.dev</dc:creator>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<rect width="32" height="32" fill="white"/>
+<path d="M25.9091 8.95999L16.5261 25.739C16.3321 26.085 15.8351 26.087 15.6381 25.743L6.06814 8.96199C5.85414 8.58599 6.17514 8.13099 6.60114 8.20699L15.9941 9.88599C16.0541 9.89699 16.1151 9.89699 16.1751 9.88599L25.3721 8.20999C25.7961 8.13199 26.1191 8.58399 25.9091 8.95999Z" fill="url(#paint0_linear_1328_166)"/>
+<path d="M20.4691 6.00499L13.5251 7.36599C13.4111 7.38799 13.3261 7.48499 13.3191 7.60099L12.8921 14.815C12.8821 14.985 13.0381 15.117 13.2041 15.079L15.1371 14.633C15.3181 14.591 15.4811 14.751 15.4441 14.933L14.8701 17.744C14.8311 17.933 15.0091 18.095 15.1941 18.039L16.3881 17.676C16.5731 17.62 16.7511 17.782 16.7121 17.972L15.7991 22.39C15.7421 22.666 16.1091 22.817 16.2631 22.58L16.3651 22.422L22.0241 11.13C22.1191 10.941 21.9551 10.725 21.7481 10.765L19.7581 11.149C19.5711 11.185 19.4121 11.011 19.4651 10.828L20.7641 6.32499C20.8161 6.14299 20.6561 5.96799 20.4691 6.00499Z" fill="url(#paint1_linear_1328_166)"/>
+<defs>
+<linearGradient id="paint0_linear_1328_166" x1="10.9879" y1="1.07275" x2="24.4844" y2="17.3871" gradientUnits="userSpaceOnUse">
+<stop stop-color="#41D1FF"/>
+<stop offset="1" stop-color="#BD34FE"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1328_166" x1="16.4937" y1="6.22277" x2="18.6063" y2="20.7144" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFEA83"/>
+<stop offset="0.083" stop-color="#FFDD35"/>
+<stop offset="1" stop-color="#FFA800"/>
+</linearGradient>
+</defs>
+</svg>

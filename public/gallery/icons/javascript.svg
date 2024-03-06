@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>JavaScript Logo</title>
+  <desc>
+    Ein angepasstes JavaScript-Logo, inspiriert von VS Code, mit den Buchstaben "JS" in Weiß auf grünem Hintergrund. Entworfen und illustriert von Tim Niedermeier, symbolisiert es die Sprache, die im Herzen moderner Webentwicklung steht.
+  </desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="">
+        <dc:creator>Tim Niedermeier - https://niedermeier.dev</dc:creator>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<rect width="32" height="32" fill="#00D486"/>
+<path d="M11.4008 10.0008H14.1008V17.6008C14.1008 21.0008 12.5008 22.2008 9.80078 22.2008C9.20078 22.2008 8.30078 22.1008 7.80078 21.9008L8.10078 19.7008C8.50078 19.9008 9.00078 20.0008 9.50078 20.0008C10.6008 20.0008 11.4008 19.5008 11.4008 17.6008V10.0008ZM16.5008 19.2008C17.2008 19.6008 18.4008 20.0008 19.5008 20.0008C20.8008 20.0008 21.4008 19.5008 21.4008 18.7008C21.4008 17.9008 20.8008 17.5008 19.4008 17.0008C17.4008 16.3008 16.1008 15.2008 16.1008 13.4008C16.1008 11.3008 17.8008 9.80078 20.7008 9.80078C22.1008 9.80078 23.1008 10.1008 23.8008 10.4008L23.2008 12.6008C22.7008 12.4008 21.9008 12.0008 20.7008 12.0008C19.5008 12.0008 18.9008 12.5008 18.9008 13.2008C18.9008 14.0008 19.6008 14.3008 21.1008 14.9008C23.2008 15.7008 24.2008 16.8008 24.2008 18.5008C24.2008 20.5008 22.6008 22.2008 19.3008 22.2008C17.9008 22.2008 16.6008 21.8008 15.9008 21.5008L16.5008 19.2008Z" fill="white"/>
+</svg>
