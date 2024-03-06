@@ -1,5 +1,6 @@
 import "./globals.scss";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
+import Script from "next/script";
 
 export const metadata = {
   title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
@@ -21,17 +22,14 @@ export const metadata = {
   metadataBase: new URL("https://niedermeier.dev"),
   icons: {
     icon: "/favicon.svg",
-    shortcut: "/favicon.ico",
+    shortcut: "/favicon.svg",
     apple: "/apple-touch-icon.png",
   },
   manifest: "https://niedermeier.dev/manifest.webmanifest",
-  verification: {
-    google: "google",
-    yandex: "yandex",
-    yahoo: "yahoo",
-    other: {
-      me: ["my-email", "my-link"],
-    },
+  autor: {
+    name: "Tim Niedermeier",
+    email: "tim.niedermeier@yahoo.com",
+    country: "Deutschland",
   },
   openGraph: {
     title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
@@ -70,53 +68,38 @@ export const metadata = {
     },
   },
   themeColor: "rgba(251, 251, 253, 0.8)",
-};
-
-const addJsonLd = () => {
-  return {
-    __html: {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Tim Niedermeier, Internet of Things - Gestaltung vernetzter Systeme",
-      description:
-        "Student mit Fokus auf Internet der Dinge (IoT). Expertise in Webdesign, App-Design und Physical Computing.",
-      url: "https://niedermeier.dev",
-      sameAs: ["https://www.linkedin.com/in/timniedermeier/"],
-      image: "https://niedermeier.dev/person/image.jpg",
-      worksFor: {
-        "@type": "Organization",
-        name: "Mercedes-Benz",
-        url: "https://www.mercedes-benz.com/",
-      },
-      jobTitle: "Student & Praktikant im Bereich IoT",
-      knowsAbout: [
-        "Internet der Dinge",
-        "Webdesign",
-        "App-Design",
-        "Physical Computing",
-      ],
-      datePublished: "2024-02-01",
-      headline:
-        "Tim Niedermeier, Internet of Things - Gestaltung vernetzter Systeme",
-    },
-  };
+  themeColorDark: "rgba(30, 30, 30, 0.8)",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="de">
       <head>
-        <script
+        {" "}
+        <Script
           type="application/ld+json"
-          dangerouslySetInnerHTML={addJsonLd()}
-          key="item-jsonld"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Tim Niedermeier",
+              description:
+                "Student mit Fokus auf Internet der Dinge (IoT). Expertise in Webdesign, App-Design und Physical Computing.",
+              url: "https://niedermeier.dev",
+              sameAs: ["https://www.linkedin.com/in/timniedermeier/"],
+              worksFor: {
+                "@type": "Organization",
+                name: "Mercedes-Benz",
+                url: "https://www.mercedes-benz.com/",
+              },
+              email: "tim.niedermeier@yahoo.com",
+              image: "https://niedermeier.dev/person/image.jpg",
+              jobTitle: "Student",
+              headline:
+                "Tim Niedermeier, Internet of Things - Gestaltung vernetzter Systeme",
+            }),
+          }}
         />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0066cc" />
         <meta name="msapplication-TileColor" content="#2d89ef" />
         <meta name="mobile-web-app-capable" content="yes" />
