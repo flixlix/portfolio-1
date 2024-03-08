@@ -19,14 +19,14 @@ const Main: React.FC = () => {
             >
               Internet der Dinge{" "}
             </a>
-            - Gestaltung vernetzter Systeme, auch bekannt als "
+            - Gestaltung vernetzter Systeme, auch bekannt als &quot;
             <a
               href="https://www.hfg-gmuend.de/studium/digital-product-design-and-development"
               target="_blank"
             >
               Digital Product Design and Development
             </a>
-            ". Meine Expertise umfasst Webdesign, App-Design sowie Physical
+            &quot;. Meine Expertise umfasst Webdesign, App-Design sowie Physical
             Computing. Was mich an IoT besonders fasziniert, ist die
             einzigartige Symbiose aus Technologie und Kreativität. Diese
             Kombination ermöglicht es, durch interdisziplinäre Zusammenarbeit
@@ -163,7 +163,7 @@ const Main: React.FC = () => {
           <p>
             In Kooperation mit
             <a href="https://www.festool.de">Festool</a> haben wir den
-            multifunktionalen Akku-Systainer "PowerPort" entwickelt, der
+            multifunktionalen Akku-Systainer &quot;PowerPort&quot; entwickelt, der
             speziell auf die Anforderungen von Handwerkern abgestimmt ist.
             Dieses innovative Produkt dient sowohl als Transportbehälter als
             auch als Ladestation für Akkupacks und vereint Effizienz,
@@ -203,8 +203,8 @@ const Main: React.FC = () => {
         <section className="textContainer" itemProp="articleBody">
           <h2 itemProp="headline">Wanderlust</h2>
           <p>
-            Dieses Projekt entstand im Rahmen des Kurses "Design System
-            Engineering" an der
+            Dieses Projekt entstand im Rahmen des Kurses &quot;Design System
+            Engineering&quot; an der
             <a href="https://www.hfg-gmuend.de">Hochschule für Gestaltung</a> in
             Schwäbisch Gmünd unter der Leitung von
             <a href="https://de.linkedin.com/in/jan-hassel">Jan Hassel</a>.
@@ -330,7 +330,7 @@ const Main: React.FC = () => {
         <section className="textContainer" itemProp="articleBody">
           <h2 itemProp="headline">MilleniumLight</h2>
           <p>
-            Unser Projekt "MilleniumLight" verbindet LEGO-Kreativität mit
+            Unser Projekt &quot;MilleniumLight&quot; verbindet LEGO-Kreativität mit
             modernster Technologie. Mithilfe eines ESP 8288 und Microsoft Azure
             steuern wir einen LED-Faden im LEGO Millenium Falcon über eine
             eigens entwickelte Webanwendung. Der ESP 8288 bildet das Herzstück,
@@ -339,7 +339,7 @@ const Main: React.FC = () => {
             die Webanwendung eine intuitive Kontrolle über die Lichteffekte
             bietet. Diese Technologie-LEGO-Symbiose ist eine Hommage an
             grenzenlose Gestaltungsmöglichkeiten. Insgesamt repräsentiert
-            "MilleniumLight" die erfolgreiche Fusion von Technologie und
+            &quot;MilleniumLight&quot; die erfolgreiche Fusion von Technologie und
             LEGO-Enthusiasmus, die LEGO-Fans neue kreative Horizonte eröffnet.
           </p>
         </section>
@@ -412,7 +412,7 @@ const Main: React.FC = () => {
             Craigslist, insbesondere die Benutzererfahrung beim Möbelkauf. Wir
             identifizierten mehrere Schwachstellen, darunter ein veraltetes
             Design und eine unübersichtliche Navigation. Nach der Erstellung
-            einer "As-Is Map" entwickelten wir einen Lo-Fi-Prototyp, den wir
+            einer &quot;As-Is Map&quot; entwickelten wir einen Lo-Fi-Prototyp, den wir
             anhand von Benutzertests weiter optimierten. Der finale Prototyp
             zeichnet sich durch ein modernes, benutzerfreundliches Design aus,
             das durch kategorisierte Icons und eine verbesserte Suchfunktion die

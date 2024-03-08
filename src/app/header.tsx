@@ -3,18 +3,8 @@ const Header: React.FC = () => {
     <header itemScope itemType="http://schema.org/WPHeader">
       <nav>
         <a href="#top" className="headerlogo" itemProp="url">
-          <picture
-            itemProp="image"
-            itemScope
-            itemType="http://schema.org/ImageObject"
-          >
-            <svg
-              title="Stilisiertes N für Niedermeier"
-              alt="Tim Niedermeier Logo"
-              viewBox="0 0 428 428"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+          <picture itemProp="image" itemScope itemType="http://schema.org/ImageObject">
+            <svg viewBox="0 0 428 428" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M6.82843 50.828C4.30857 48.3082 0 50.0928 0 53.6565V424C0 426.209 1.79087 428 4.00001 428H56C58.2091 428 60 426.209 60 424V205.656C60 202.093 64.3086 200.308 66.8284 202.828L290.828 426.828C291.579 427.578 292.596 428 293.657 428H374.343C377.907 428 379.691 423.691 377.172 421.171L6.82843 50.828Z"
                 fill="var(--primary-color)"
