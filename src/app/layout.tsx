@@ -75,7 +75,6 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="de">
       <head>
-        {" "}
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -100,8 +99,6 @@ export default function Layout({ children }: { children: ReactNode }) {
             }),
           }}
         />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0066cc" />
-        <meta name="msapplication-TileColor" content="#2d89ef" />
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
       <body>{children}</body>
