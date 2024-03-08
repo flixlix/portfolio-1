@@ -6,7 +6,7 @@ export const size = {
 };
 export const contentType = "image/svg+xml";
 
-export default function Icon() {
+export default function favicon() {
   const svgData = `
     <svg width="${size.width}" height="${size.height}" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M10 10L90 90M90 10L10 90" stroke="#0066CC" stroke-width="10" stroke-linecap="round"/>
