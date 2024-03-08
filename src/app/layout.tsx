@@ -26,6 +26,11 @@ export const metadata = {
     email: "tim.niedermeier@yahoo.com",
     country: "Deutschland",
   },
+  icon: {
+    icon: "/icon.svg",
+    shortcut: "/apple-icon.png",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
     description:
