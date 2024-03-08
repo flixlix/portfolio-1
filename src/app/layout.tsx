@@ -20,11 +20,6 @@ export const metadata = {
   ],
   category: "technology, web development, app design, physical computing",
   metadataBase: new URL("https://niedermeier.dev"),
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/apple-touch-icon.png",
-  },
   manifest: "https://niedermeier.dev/manifest.webmanifest",
   autor: {
     name: "Tim Niedermeier",
@@ -54,7 +49,6 @@ export const metadata = {
     locale: "de_DE",
     type: "website",
   },
-
   twitter: {
     card: "summary",
     title: "Tim Niedermeier, Internet of Things, Web Development, App Design",
@@ -67,8 +61,6 @@ export const metadata = {
       alt: "Tim Niedermeier, Internet of Things, Web Development, App Design",
     },
   },
-  themeColor: "rgba(251, 251, 253, 0.8)",
-  themeColorDark: "rgba(30, 30, 30, 0.8)",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
@@ -76,6 +68,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <html lang="de">
       <head>
         <Script
+          id="google-analytics"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -94,8 +87,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               email: "tim.niedermeier@yahoo.com",
               image: "https://niedermeier.dev/person/image.jpg",
               jobTitle: "Student",
-              headline:
-                "Tim Niedermeier, Internet of Things - Gestaltung vernetzter Systeme",
+              headline: "Tim Niedermeier, Internet of Things - Gestaltung vernetzter Systeme",
             }),
           }}
         />
